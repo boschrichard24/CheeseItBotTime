@@ -20,8 +20,8 @@ public class DriveConstants {
     /*
      * These are motor constants that should be listed online for your motors.
      */
-    public static final double TICKS_PER_REV = 383.6;
-    public static final double MAX_RPM = 435;
+    public static final double TICKS_PER_REV = 1120;
+    public static final double MAX_RPM = 160;
 
     /*
      * Set RUN_USING_ENCODER to true to enable built-in hub velocity control using drive encoders.
@@ -32,10 +32,10 @@ public class DriveConstants {
      * from DriveVelocityPIDTuner.
      */
 
-    public static double kP = /*20.0*/ 15.0;
-    public static double kI = 0;
+    public static double kP = 0.2653;
+    public static double kI = 0.02653;
     public static double kD = 0;
-    public static double kF= 15.0;
+    public static double kF= 2.653;
 
     public static final boolean RUN_USING_ENCODER = false;
     public static PIDFCoefficients MOTOR_VELO_PID = new PIDFCoefficients(kP, kI, kD,
