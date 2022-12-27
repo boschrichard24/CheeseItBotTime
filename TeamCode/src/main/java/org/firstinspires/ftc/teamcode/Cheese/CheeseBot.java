@@ -151,6 +151,10 @@ public class CheeseBot extends LinearOpMode {
             telemetry.addData("Green", green);
             telemetry.addData("Blue", blue);
             telemetry.addData("Servo Position", servoPos);
+            telemetry.addData("leftFrontPower :: ",leftFrontPower);
+            telemetry.addData("rightFrontPower :: ",rightFrontPower);
+            telemetry.addData("leftBackPower :: ",leftBackPower);
+            telemetry.addData("rightBackPower :: ",rightBackPower);
             telemetry.update();
         }
     }
