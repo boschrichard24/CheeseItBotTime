@@ -42,7 +42,7 @@ import static org.firstinspires.ftc.teamcode.drive.DriveConstants.kV;
  * control back to the tuning process.
  */
 @Config
-@Autonomous(group = "drive")
+@Autonomous(group = "ManualFeedforwardTuner")
 public class ManualFeedforwardTuner extends LinearOpMode {
     public static double DISTANCE = 72; // in
 
